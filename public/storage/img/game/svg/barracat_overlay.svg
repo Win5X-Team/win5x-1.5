@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="156px" viewBox="0 0 161 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Card Out</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-14.9%" y="-9.1%" width="129.8%" height="120.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0667679028   0 0 0 0 0.152941176   0 0 0 0 0.0470588235  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="-2.20268248e-12" y="6.11066753e-13" width="103.499284" height="147.935997" rx="5.22547204"></rect>
+        <filter x="-8.7%" y="-3.4%" width="113.5%" height="109.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.278431373   0 0 0 0 0.298039216   0 0 0 0 0.376470588  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Games-/-Game-Thumbnail-/-Baccarat" transform="translate(-76.000000, -4.000000)">
+            <g id="Card-Out" filter="url(#filter-1)" transform="translate(156.000000, 97.000000) rotate(20.000000) translate(-156.000000, -97.000000) translate(104.000000, 23.000000)">
+                <g id="Rectangle-106">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M23.718586,38.2644537 C23.718586,38.749286 24.1132803,39.1595287 24.6658523,39.1595287 L28.1391619,39.1595287 C28.6522645,39.1595287 29.0864282,38.749286 29.0864282,38.2644537 L29.0864282,26.889543 L39.3879489,38.8984652 C39.4668878,39.0103495 39.7037044,39.1595287 40.0983986,39.1595287 L44.4005663,39.1595287 C45.1899549,39.1595287 45.5057103,38.3390433 45.111016,37.8542111 L34.0595761,25.3604567 L44.3610969,14.3957886 C44.8741994,13.8363668 44.4795052,13.0531762 43.729586,13.0531762 L39.7826432,13.0531762 C39.4274184,13.0531762 39.1906018,13.2396502 39.0327241,13.4261241 L29.0864282,24.0178443 L29.0864282,13.9482512 C29.0864282,13.4634189 28.6522645,13.0531762 28.1391619,13.0531762 L24.6658523,13.0531762 C24.1132803,13.0531762 23.718586,13.4634189 23.718586,13.9482512 L23.718586,38.2644537 Z" id="K" fill="#FF2247"></path>
+                <path d="M34.4997614,62.7754915 L44.3786922,52.7163683 C45.0364295,52.0466338 46.1121797,52.0430029 46.7734829,52.7163683 L55.5674713,61.6707597 C56.2252085,62.3404941 56.2287745,63.4358661 55.5674713,64.1092315 L35.6971568,84.3419821 C35.0394195,85.0117166 33.9636693,85.0153475 33.3023661,84.3419821 L13.4320516,64.1092315 C12.7743143,63.4394971 12.7707484,62.3441251 13.4320516,61.6707597 L22.22604,52.7163683 C22.8837772,52.0466338 23.9595275,52.0430029 24.6208307,52.7163683 L34.4997614,62.7754915 L34.4997614,62.7754915 Z" id="Rectangle-45-Copy-12" fill="#FF2247"></path>
+            </g>
+        </g>
+    </g>
+</svg>

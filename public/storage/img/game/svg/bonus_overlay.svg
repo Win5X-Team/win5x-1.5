@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="79px" viewBox="0 0 59 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Chip</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.1935747%" y1="67.2446354%" x2="7.72408508%" y2="39.7042137%" id="linearGradient-1">
+            <stop stop-color="#484B68" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F9DF7D" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="38.1877795" cy="77.8881829" rx="15.4410258" ry="15.3190368"></ellipse>
+        <filter x="-3.2%" y="-3.3%" width="113.0%" height="113.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.662745098   0 0 0 0 0.28627451  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Games-/-Game-Thumbnail-/-Plinko" transform="translate(-111.000000, -96.000000)">
+            <g id="Chip" transform="translate(141.972735, 127.779552) rotate(45.000000) translate(-141.972735, -127.779552) translate(113.972735, 80.779552)">
+                <g id="Group-5" transform="translate(-0.000000, 0.000000)">
+                    <polygon id="Rectangle-4539" fill-opacity="0.700000048" fill="url(#linearGradient-1)" transform="translate(28.117622, 42.337508) rotate(252.000000) translate(-28.117622, -42.337508) " points="67.0626255 44.8843414 48.7365899 58.7465714 -10.8273818 56.4350955 -4.7975205 25.928444"></polygon>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="#FFD527" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <ellipse id="Oval" stroke="#D6A949" stroke-width="2" cx="38.1877795" cy="77.8881829" rx="10.151852" ry="10.0637488"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

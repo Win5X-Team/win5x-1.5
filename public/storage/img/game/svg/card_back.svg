@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 142" width="86" height="142">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #4986f5 } 
+		.shp1 { opacity: 0.302;fill: none;stroke: #ffffff;stroke-width: 1.8 } 
+	</style>
+	<g >
+		<path class="shp0" d="M5 0.7L81 0.7C83.77 0.7 86 2.93 86 5.7L86 136.4C86 139.16 83.77 141.4 81 141.4L5 141.4C2.23 141.4 0 139.16 0 136.4L0 5.7C0 2.93 2.23 0.7 5 0.7Z" />
+		<path fill-rule="evenodd" class="shp1" d="M24.52 76.1C23.41 73.87 23.41 70.27 24.55 68.04L40.06 37.26C41.18 35.05 42.98 35.05 44.09 37.28L59.4 68.16C60.51 70.39 60.5 73.99 59.37 76.23L43.85 107C42.73 109.22 40.93 109.22 39.82 106.98L24.52 76.1Z" />
+	</g>
+</svg>
