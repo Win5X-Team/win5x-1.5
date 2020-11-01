@@ -1,31 +1,44 @@
 {
+  "name": "win5x",
+  "version": "1.5.5",
   "private": true,
   "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "@types/node": "^12.12.14",
-    "bootstrap-sass": "^3.0.0",
-    "gulp": "^4.0.2",
-    "javascript-obfuscator": "^0.21.0",
-    "laravel-elixir": "^6.0.0-18"
+    "axios": "^0.19",
+    "cross-env": "^7.0",
+    "laravel-mix": "^5.0.1",
+    "lodash": "^4.17.13",
+    "mathjs": "^6.6.2",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.15.2",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "xss-filters": "^1.2.7"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "easyvk": "^2.5.11",
-    "glob": "^7.1.6",
-    "hoek": "^6.1.3",
-    "http-server": "^0.12.1",
-    "mathjs": "^6.2.5",
-    "node-sass": "^4.13.0",
-    "node-schedule": "^1.3.2",
+    "emojione": "^4.5.0",
+    "emojionearea": "^3.4.1",
+    "express": "latest",
+    "izitoast": "^1.4.0",
+    "jquery": "^3.4.1",
+    "jquery-pjax": "^2.0.1",
+    "jscrollpane": "^2.2.1",
+    "lazysizes": "^5.2.0",
+    "line-awesome": "^1.3.0",
+    "nanoscroller": "^0.8.7",
+    "nprogress": "^0.2.0",
     "requestify": "^0.2.5",
-    "scribe-js": "^2.0.4",
+    "slick-carousel": "^1.8.1",
     "socket.io": "^2.3.0",
-    "vk-bots": "0.0.3",
-    "web-push": "^3.4.3",
-    "xss-filters": "^1.2.7"
+    "socket.io-client": "^2.3.0",
+    "webpack-shell-plugin": "^0.5.0"
   }
 }

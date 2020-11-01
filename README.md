@@ -105,7 +105,7 @@ cd /var/www/html
 nano .env
 ```
 
-В файле изменить APP_DEBUG на false, APP_URL на адрес сайта..
+В файле изменить APP_DEBUG на false, APP_URL на адрес сайта.
 DB_DATABASE на имя базы данных
 DB_USERNAME на root (по умолчанию) или другое имя пользователя, если оно было создано
 DB_PASSWORD на пароль базы данных
@@ -126,7 +126,7 @@ DB_PASSWORD на пароль базы данных
 2 - модератор (в админке имеет доступ к созданию промокодов)
 3 - администратор (полный доступ)
 
-После выдачи админка станет доступна по адресу http://сайт/admin
+После выдачи админка станет доступна по адресу /admin
 
 #### node.js скрипты
 
@@ -134,6 +134,9 @@ DB_PASSWORD на пароль базы данных
 
 ```
 apt-get install npm
+
+npm install && composer install
+
 npm install --save -g pm2
 npm install --save -g cors easyvk express http xss-filters crypto mathjs socket.js
 npm install --save -g fs
