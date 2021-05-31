@@ -1,5 +1,19 @@
 # Win5X 1.5
 
+# Warning
+
+Seems like this repository caused some confusion over the past year. This is NOT RELATED to https://new.playin.team in any way.
+
+This version was never intended for public use or selling. We used it for our own project, that's it. After the leak on russian forums multiple scammers are trying to use our name, selling this version "way cheaper than we propose".
+
+Even through source code is there, we don't recommend using it. It's not polished, made for Russian audience, and you will have to guess what our developer was thinking when he coded this outdated thing. Latest versions are completely rewritten using modern technologies.
+
+If you need a casino website, feel free to contact us: https://new.playin.team. We have released sport betting update recently!
+
+--
+
+If you are still interested in Win5x/1.5 for some weird reason, you can read our Russian wall of text:
+
 # Зачем мы это делаем?
 
 Доброго времени суток, Вас приветствует команда Win5X.
@@ -17,14 +31,6 @@
 Нам это точно не нужно. Мы работаем с зарубежной аудиторией, а минимальная цена нашего скрипта составляет 1250$.
 
 Демо доступно по ссылкам: [win5x.com](https://win5x.com) (заблокировано в России, вход только по vpn) [playin.team](https://playin.team) и [demo.playin.team](https://demo.playin.team)
-
-Официальные страницы разработчиков:
-
-[vk.com/playintm](vk.com/playintm)
-
-[vk.com/id581838720 (Klaus)](vk.com/id581838720)
-
-[vk.com/id616046785 (Adam)](vk.com/id616046785)
 
 Если вы хотите открыть действительно хороший проект - ждём вас.
 
